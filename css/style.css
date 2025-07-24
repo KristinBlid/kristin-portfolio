@@ -1,1 +1,97 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Quicksand&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #f5efe0;
+  color: #2d2d2d;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3b3f58;
+  color: #fff4c4;
+  padding: 30px;
+  text-align: center;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+  border-bottom: 5px solid #f29e4c;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #fef4c0;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 30px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.gallery img {
+  max-width: 300px;
+  border: 4px solid #f29e4c;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+
+.dropbtn {
+  background-color: #f29e4c;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1em;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff4c4;
+  min-width: 160px;
+  z-index: 1;
+  border: 2px solid #f29e4c;
+  border-radius: 4px;
+}
+
+.dropdown-content a {
+  color: #3b3f58;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+}
+
+.dropdown-content a:hover {
+  background-color: #fcefb4;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
